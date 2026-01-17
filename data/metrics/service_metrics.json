@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-01-17T11:45:00Z",
+  "service": "auth-service",
+
+  "compute": {
+    "cpu_percent": {
+      "value": 84.6,
+      "severity": "HIGH"
+    },
+    "memory_percent": {
+      "value": 78.9,
+      "severity": "HIGH"
+    },
+    "gc_pause_time_ms": {
+      "value": 390,
+      "severity": "MEDIUM"
+    }
+  },
+
+  "storage": {
+    "disk_io_utilization_percent": {
+      "value": 74.3,
+      "severity": "HIGH"
+    }
+  },
+
+  "network": {
+    "network_latency_ms": {
+      "value": 310,
+      "severity": "HIGH"
+    }
+  },
+
+  "traffic": {
+    "request_count_per_min": {
+      "value": 1450,
+      "severity": "HIGH"
+    },
+    "error_rate_percent": {
+      "value": 3.6,
+      "severity": "HIGH"
+    },
+    "http_5xx_error_count": {
+      "value": 18,
+      "severity": "HIGH"
+    }
+  },
+
+  "latency": {
+    "latency_ms_p95": {
+      "value": 820,
+      "severity": "HIGH"
+    },
+    "latency_ms_p99": {
+      "value": 1180,
+      "severity": "HIGH"
+    }
+  },
+
+  "database": {
+    "connection_pool_usage_percent": {
+      "value": 86,
+      "severity": "HIGH"
+    },
+    "query_timeout_rate_percent": {
+      "value": 1.7,
+      "severity": "HIGH"
+    }
+  },
+
+  "runtime": {
+    "thread_pool_queue_depth": {
+      "value": 29,
+      "severity": "HIGH"
+    }
+  },
+
+  "cache": {
+    "cache_hit_ratio_percent": {
+      "value": 66.2,
+      "severity": "MEDIUM"
+    }
+  },
+
+  "availability": {
+    "service_uptime_percent": {
+      "value": 99.4,
+      "severity": "MEDIUM"
+    }
+  }
+}

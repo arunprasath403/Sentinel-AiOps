@@ -1,0 +1,50 @@
+[
+  {
+    "incident_id": "INC-F8BD8C",
+    "service": "auth-service",
+    "severity": "CRITICAL",
+    "detected_at": "2026-01-17T13:47:53.134191Z",
+    "md_path": "reports\\INC-F8BD8C.md",
+    "pdf_path": "reports\\INC-F8BD8C.pdf"
+  },
+  {
+    "incident_id": "INC-786F15",
+    "service": "auth-service",
+    "severity": "CRITICAL",
+    "detected_at": "2026-01-17T13:49:16.604446Z",
+    "md_path": "reports\\INC-786F15.md",
+    "pdf_path": "reports\\INC-786F15.pdf"
+  },
+  {
+    "incident_id": "INC-371425",
+    "service": "auth-service",
+    "severity": "HIGH",
+    "detected_at": "2026-01-17T13:59:00.435716Z",
+    "md_path": "reports\\INC-371425.md",
+    "pdf_path": "reports\\INC-371425.pdf"
+  },
+  {
+    "incident_id": "INC-6357F3",
+    "service": "auth-service",
+    "severity": "HIGH",
+    "detected_at": "2026-01-17T14:03:30.307417Z",
+    "md_path": "reports\\INC-6357F3.md",
+    "pdf_path": "reports\\INC-6357F3.pdf"
+  },
+  {
+    "incident_id": "INC-D27A0F",
+    "service": "auth-service",
+    "severity": "HIGH",
+    "detected_at": "2026-01-17T14:04:23.283117Z",
+    "md_path": "reports\\INC-D27A0F.md",
+    "pdf_path": "reports\\INC-D27A0F.pdf"
+  },
+  {
+    "incident_id": "INC-D57F6A",
+    "service": "auth-service",
+    "severity": "HIGH",
+    "detected_at": "2026-01-17T14:08:22.515948Z",
+    "md_path": "reports\\INC-D57F6A.md",
+    "pdf_path": "reports\\INC-D57F6A.pdf"
+  }
+]

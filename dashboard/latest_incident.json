@@ -1,0 +1,130 @@
+{
+  "incident": {
+    "incident_id": "INC-D57F6A",
+    "service": "auth-service",
+    "severity": "HIGH",
+    "detected_at": "2026-01-17T14:08:22.515948Z",
+    "symptoms": [
+      "Compute Cpu Percent is HIGH",
+      "Compute Memory Percent is HIGH",
+      "Storage Disk Io Utilization Percent is HIGH",
+      "Network Network Latency Ms is HIGH",
+      "Traffic Request Count Per Min is HIGH",
+      "Traffic Error Rate Percent is HIGH",
+      "Traffic Http 5Xx Error Count is HIGH",
+      "Latency Latency Ms P95 is HIGH",
+      "Latency Latency Ms P99 is HIGH",
+      "Database Connection Pool Usage Percent is HIGH",
+      "Database Query Timeout Rate Percent is HIGH",
+      "Runtime Thread Pool Queue Depth is HIGH"
+    ],
+    "metrics_snapshot": {
+      "timestamp": "2026-01-17T11:45:00Z",
+      "service": "auth-service",
+      "compute": {
+        "cpu_percent": {
+          "value": 84.6,
+          "severity": "HIGH"
+        },
+        "memory_percent": {
+          "value": 78.9,
+          "severity": "HIGH"
+        },
+        "gc_pause_time_ms": {
+          "value": 390,
+          "severity": "MEDIUM"
+        }
+      },
+      "storage": {
+        "disk_io_utilization_percent": {
+          "value": 74.3,
+          "severity": "HIGH"
+        }
+      },
+      "network": {
+        "network_latency_ms": {
+          "value": 310,
+          "severity": "HIGH"
+        }
+      },
+      "traffic": {
+        "request_count_per_min": {
+          "value": 1450,
+          "severity": "HIGH"
+        },
+        "error_rate_percent": {
+          "value": 3.6,
+          "severity": "HIGH"
+        },
+        "http_5xx_error_count": {
+          "value": 18,
+          "severity": "HIGH"
+        }
+      },
+      "latency": {
+        "latency_ms_p95": {
+          "value": 820,
+          "severity": "HIGH"
+        },
+        "latency_ms_p99": {
+          "value": 1180,
+          "severity": "HIGH"
+        }
+      },
+      "database": {
+        "connection_pool_usage_percent": {
+          "value": 86,
+          "severity": "HIGH"
+        },
+        "query_timeout_rate_percent": {
+          "value": 1.7,
+          "severity": "HIGH"
+        }
+      },
+      "runtime": {
+        "thread_pool_queue_depth": {
+          "value": 29,
+          "severity": "HIGH"
+        }
+      },
+      "cache": {
+        "cache_hit_ratio_percent": {
+          "value": 66.2,
+          "severity": "MEDIUM"
+        }
+      },
+      "availability": {
+        "service_uptime_percent": {
+          "value": 99.4,
+          "severity": "MEDIUM"
+        }
+      }
+    }
+  },
+  "metrics_analysis": {
+    "cpu_status": "HIGH",
+    "error_rate_status": "HIGH",
+    "latency_status": "HIGH",
+    "summary": "CPU: HIGH, Errors: HIGH, Latency: HIGH"
+  },
+  "log_analysis": {
+    "error_count": 2,
+    "warning_count": 1,
+    "key_errors": [
+      "AuthService Database connection timeout",
+      "AuthService Failed login due to DB error"
+    ],
+    "summary": "Multiple errors detected in logs"
+  },
+  "root_cause": "Root cause analysis unavailable due to AI service error",
+  "recommendations": [
+    {
+      "action": "Collect additional metrics and logs",
+      "type": "INVESTIGATE",
+      "confidence": 0.55,
+      "explanation": "Explanation unavailable due to AI service error"
+    }
+  ],
+  "report_markdown": "reports\\INC-D57F6A.md",
+  "report_pdf_path": "reports\\INC-D57F6A.pdf"
+}
