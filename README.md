@@ -100,24 +100,7 @@ The system is autonomous across four dimensions:
 
 ## High-Level Architecture
 
-```
-Telemetry (JSON)
-        ↓
-Incident Detection Engine
-        ↓
-Incident Confidence Evaluation
-        ↓
-LangGraph Workflow
- ├── Metrics Analysis
- ├── Log Analysis
- ├── Root Cause Analysis (AI + fallback)
- ├── Recommendation Engine
- └── Report Generator
-        ↓
-Incident Archive (index.json)
-        ↓
-Operational Dashboard (Streamlit)
-```
+<p align="center"> <img src="assets/architecture.png" alt="Sentinel AIOps High-Level Architecture" width="900"> </p>
 
 ---
 
