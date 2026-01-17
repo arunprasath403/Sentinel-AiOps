@@ -1,4 +1,4 @@
-# Sentinel AIOps — Autonomous Cloud Incident Response
+# Sentinel AIOps - Autonomous Cloud Incident Response
 
 ## Overview
 
