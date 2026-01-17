@@ -306,7 +306,6 @@ python tools/telemetry_simulator.py
 - SRE incident response automation
 - AIOps and observability platforms
 - GenAI + infrastructure demonstrations
-- Portfolio project for SRE, Platform, Cloud, and GenAI roles
 
 ---
 
