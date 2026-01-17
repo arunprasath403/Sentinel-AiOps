@@ -1,4 +1,4 @@
-# # Sentinel AIOps — Autonomous Cloud Incident Response
+# Sentinel AIOps - Autonomous Cloud Incident Response
 
 ## Overview
 
@@ -7,7 +7,7 @@ This project is a **platform-level Autonomous Cloud Incident Response and AIOps 
 It continuously observes telemetry, detects actionable incidents, performs **AI-assisted root cause analysis with deterministic safeguards**, recommends remediation actions, generates structured post-incident reports, and visualizes operational insights through a dashboard.
 
 This is **not** a chatbot, RAG demo, or toy automation.\
-It is a **responsible, safety-first autonomous SRE system** that mirrors real enterprise incident response workflows while remaining **100% free to run**.
+It is a **responsible, safety-first autonomous SRE system** that mirrors real enterprise incident response workflows while remaining **100% Minimal-cost**.
 
 ---
 
